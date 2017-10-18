@@ -26,7 +26,8 @@
           <argument>
             <kind>1</kind>
             <string>left = ord('A');
-right = ord('D');
+right = ord('D');    
+
 </string>
           </argument>
         </arguments>
@@ -54,6 +55,8 @@ right = ord('D');
 } else if keyboard_check(right) {
 x +=10;
 }
+
+x = clamp(x, sprite_width/2, room_width -(sprite_width/2));
 </string>
           </argument>
         </arguments>
